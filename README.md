@@ -44,6 +44,8 @@ For devise user, you can set up scope in your devise.rb as following.
 config.omniauth :wechat, ENV["WECHAT_APP_ID"], ENV["WECHAT_APP_SECRET"],
     :authorize_params => {:scope => "snsapi_base"}
 ```
+##ToDo
+Add qrcode login support.
 
 ## Auth Hash
 
